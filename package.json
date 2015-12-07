@@ -1,0 +1,28 @@
+{
+  "name": "expense-manager-cli",
+  "version": "0.0.1",
+  "description": "Command-line application for bishinews' Expense Manager",
+  "keywords": [
+    "bishinews",
+    "Expense Manager"
+  ],
+  "author": "Antonio Bustos <antoniobusrod@gmail.com>",
+  "bin": {
+    "expense-manager": "./bin/expense-manager-cli.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cli-table2": "^0.1.9",
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "expense-manager-core": "antoniobusrod/expense-manager-core",
+    "mz": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/antoniobusrod/expense-manager-cli.git"
+  },
+  "engine": {
+    "node": ">=4.2"
+  }
+}
